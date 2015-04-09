@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at mycpu.v(45): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at mycpu.v(25): object "LED" differs only in case from object "led" in the same scope

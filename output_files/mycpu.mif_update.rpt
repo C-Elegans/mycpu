@@ -1,0 +1,76 @@
+MIF/HEX Update report for mycpu
+Thu Apr  9 12:27:46 2015
+Quartus II 64-Bit Version 14.0.0 Build 200 06/17/2014 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. MIF/HEX Update Summary
+  3. MIF/HEX Update Processed Files
+  4. MIF/HEX Update Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; MIF/HEX Update Summary                                        ;
++-----------------------+---------------------------------------+
+; MIF/HEX Update Status ; Successful - Thu Apr  9 12:27:46 2015 ;
+; Revision Name         ; mycpu                                 ;
+; Top-level Entity Name ; mycpu                                 ;
+; Family                ; Cyclone IV E                          ;
+; Device                ; EP4CE22F17C6                          ;
++-----------------------+---------------------------------------+
+
+
++----------------------------------------------------------+
+; MIF/HEX Update Processed Files                           ;
++----------------------------------------------------------+
+; File Name                                                ;
++----------------------------------------------------------+
+; /home/mnolan/projects/mycpu/programming/myasm/output.hex ;
++----------------------------------------------------------+
+
+
++-------------------------+
+; MIF/HEX Update Messages ;
++-------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit MIF/HEX Update
+    Info: Version 14.0.0 Build 200 06/17/2014 SJ Web Edition
+    Info: Processing started: Thu Apr  9 12:27:43 2015
+Info: Command: quartus_cdb mycpu -c mycpu --update_mif
+Warning (113007): Byte addressed memory initialization file "output.hex" was read in the word-addressed format
+Warning (113015): Width of data items in "output.hex" is greater than the memory width. Wrapping data items to subsequent addresses. Found 1 warnings, reporting 1
+    Warning (113009): Data at line (1) of memory initialization file "output.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+Critical Warning (127005): Memory depth (512) in the design file differs from memory depth (4) in the Memory Initialization File "/home/mnolan/projects/mycpu/programming/myasm/output.hex" -- setting initial value for remaining addresses to 0
+Info (39024): Processed the following Memory Initialization File(s)
+    Info (39025): Processed Memory Initialization File /home/mnolan/projects/mycpu/programming/myasm/output.hex
+Info: Quartus II 64-Bit MIF/HEX Update was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 962 megabytes
+    Info: Processing ended: Thu Apr  9 12:27:46 2015
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:01
+
+
