@@ -1,6 +1,7 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="mycpu">
-		<CBX_INST_ENTRY INSTANCE_NAME="|mycpu|ram:ram|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_18d1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mycpu|cpu:inst|shift:shifter|lpm_clshift:LPM_CLSHIFT_component" CBX_FILE_NAME="lpm_clshift_0kc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mycpu|cpu:inst|ram2:ram|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_53k2.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

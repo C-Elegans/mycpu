@@ -1,5 +1,5 @@
 MIF/HEX Update report for mycpu
-Thu Apr  9 12:27:46 2015
+Fri Apr 10 09:27:49 2015
 Quartus II 64-Bit Version 14.0.0 Build 200 06/17/2014 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ agreement for further details.
 +---------------------------------------------------------------+
 ; MIF/HEX Update Summary                                        ;
 +-----------------------+---------------------------------------+
-; MIF/HEX Update Status ; Successful - Thu Apr  9 12:27:46 2015 ;
+; MIF/HEX Update Status ; Successful - Fri Apr 10 09:27:49 2015 ;
 ; Revision Name         ; mycpu                                 ;
 ; Top-level Entity Name ; mycpu                                 ;
 ; Family                ; Cyclone IV E                          ;
@@ -59,18 +59,18 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit MIF/HEX Update
     Info: Version 14.0.0 Build 200 06/17/2014 SJ Web Edition
-    Info: Processing started: Thu Apr  9 12:27:43 2015
+    Info: Processing started: Fri Apr 10 09:27:47 2015
 Info: Command: quartus_cdb mycpu -c mycpu --update_mif
 Warning (113007): Byte addressed memory initialization file "output.hex" was read in the word-addressed format
 Warning (113015): Width of data items in "output.hex" is greater than the memory width. Wrapping data items to subsequent addresses. Found 1 warnings, reporting 1
     Warning (113009): Data at line (1) of memory initialization file "output.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
-Critical Warning (127005): Memory depth (512) in the design file differs from memory depth (4) in the Memory Initialization File "/home/mnolan/projects/mycpu/programming/myasm/output.hex" -- setting initial value for remaining addresses to 0
+Critical Warning (127005): Memory depth (256) in the design file differs from memory depth (17) in the Memory Initialization File "/home/mnolan/projects/mycpu/programming/myasm/output.hex" -- setting initial value for remaining addresses to 0
 Info (39024): Processed the following Memory Initialization File(s)
     Info (39025): Processed Memory Initialization File /home/mnolan/projects/mycpu/programming/myasm/output.hex
 Info: Quartus II 64-Bit MIF/HEX Update was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 962 megabytes
-    Info: Processing ended: Thu Apr  9 12:27:46 2015
-    Info: Elapsed time: 00:00:03
+    Info: Peak virtual memory: 967 megabytes
+    Info: Processing ended: Fri Apr 10 09:27:49 2015
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 
